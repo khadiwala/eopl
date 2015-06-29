@@ -1,3 +1,4 @@
+(ns 118)
 (defn compose [f g]
   (fn [x]
     (f (g x))))
